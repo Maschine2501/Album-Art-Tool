@@ -4,7 +4,7 @@ Description=AlbumImageConverter
 [Service]
 Type=simple
 WorkingDirectory=/home
-ExecStart=/home/volumio/src/Python-3.8.5/bin/python3.8 -u /home/volumio/AlbumImage.py
+ExecStart=/usr/bin/python -u /home/volumio/AlbumImage.py
 StandardOutput=syslog
 StandardError=syslog
 SyslogIdentifier=AlbumImageConverter
